@@ -1,0 +1,18 @@
+/* CSS Document */
+
+body {
+	background: silver; 	
+}
+
+#header {
+	padding: 20px;
+	background: gold;
+}
+	
+#content { 
+	background: white;
+}
+
+#footer {
+	background: green;
+}
