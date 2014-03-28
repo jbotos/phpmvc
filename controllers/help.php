@@ -8,13 +8,13 @@ class help extends Controller {
 		//echo 'we are in help';
 	}
 	
-	public function other($arg = false)
+	public function index($arg = false)
 	{
 		echo 'we are inside other <br>';
 		echo 'optional: ' . $arg;	
 		
-		require 'models/help_m.php';
-		$model = new Help_Model();
+		/*require 'models/help_m.php';
+		$model = new Help_Model();*/
 		
 	}
 	

@@ -1,10 +1,10 @@
 <?php
 
-// Use an autoloader
 
 
 
-define("APPPATH", $_SERVER['DOCUMENT_ROOT']);
+
+//define("APPPATH", $_SERVER['DOCUMENT_ROOT']);
 
 /*function __autoload($classname) {
 	if($classname !== 0) {
@@ -26,10 +26,19 @@ if(!function_exists('classAutoLoader')){
 spl_autoload_register('classAutoLoader');
 */
  
+// Use an autoloader 
 require 'libs/Bootstrap.php';
 require 'libs/Controller.php';
 require 'libs/View.php';
 require 'libs/Model.php';
+
+// Library 
+require 'libs/Database.php';
+require 'libs/Session.php';
+
+// Config
+require 'config/database.php';
+
 $app = new Bootstrap();
 	
 
