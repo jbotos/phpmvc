@@ -7,16 +7,9 @@ class Login extends Controller {
 	}
 	
 	function index() 
-	{
-		if(session_id('loggedIn')) {
-			header('Locaiton /dashbaord');
-		} else {
-			$this->view->render('login/index');
-		}
-		//echo '<pre>';
-		//print_r($_SESSION);	
+	{	
+		$this->view->render('login/index');
 	}
- 
 	
 	function run()
 	{

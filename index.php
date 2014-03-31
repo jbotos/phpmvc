@@ -1,9 +1,4 @@
 <?php
-
-
-
-
-
 //define("APPPATH", $_SERVER['DOCUMENT_ROOT']);
 
 /*function __autoload($classname) {
@@ -37,6 +32,7 @@ require 'libs/Database.php';
 require 'libs/Session.php';
 
 // Config
+require 'config/paths.php';
 require 'config/database.php';
 
 $app = new Bootstrap();
@@ -45,26 +41,6 @@ $app = new Bootstrap();
 
 ?>
 
+ 
 
-
-
-
-
-
-
-
-
-
-
-
-
-<?php /*?><!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Untitled Document</title>
-</head>
-<body>
-This is the index page
-</body>
-</html><?php */?>
+ 
