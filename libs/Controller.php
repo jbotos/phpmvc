@@ -2,6 +2,8 @@
 
 class Controller {
 	
+	public $data = array();
+	
 	function __construct() 
 	{
 		//echo 'we are in the main controller <br>';
